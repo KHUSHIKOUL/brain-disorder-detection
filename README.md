@@ -1,26 +1,32 @@
 # 🧠 Brain Stroke Detection System
 
 ## 🔍 Overview
-AI-based web application to predict stroke risk using Machine Learning.
+A Machine Learning based web application that predicts the risk of stroke using patient health data.
 
 ## 🚀 Features
-- Stroke risk prediction
+- Stroke risk prediction (Low / High)
 - Confidence score
 - Interactive UI
-- Flask-based web app
+- Flask-based backend
+- File upload support
 
 ## 🧠 Model
 - Algorithm: Random Forest
-- Accuracy: ~93%
-- Dataset: Stroke dataset
+- Accuracy: 95.48%
+- Dataset: Kaggle Stroke Dataset
 
-## ▶️ Run Project
-pip install -r requirements.txt
-python app.py
-
-## 📌 Inputs
+## 📥 Inputs
 - Age
 - Hypertension
 - Heart Disease
 - Glucose Level
 - BMI
+
+## ▶️ How to Run
+pip install -r requirements.txt  
+python app.py  
+
+## 📌 Future Scope
+- Deep Learning integration  
+- Real-time hospital data  
+- Mobile app version  
