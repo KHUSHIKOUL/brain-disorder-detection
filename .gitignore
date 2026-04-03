@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+uploads/
+brain_stroke.csv
+model.pkl
+.env
